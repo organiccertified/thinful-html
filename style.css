@@ -1,0 +1,69 @@
+/*
+he following CSS properties:
+
+background, color, font-family, font-size,
+height, margin, padding, text-align
+*/
+
+body{
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    list-style-position: inside;
+}
+
+header{
+    padding-top: 30px;
+}
+
+hr{
+    width: 50%;
+    border: 3px solid black;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+h1, h2, h3{
+    align-content: center;
+    color:blue;
+}
+
+p, ul, ol{
+    font-size: large;
+}
+
+main{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: grey;
+    color: black;
+    font-size: small;
+    position: fixed;
+    width: 98%;
+    bottom: 0;
+    margin-top: 20px;
+    
+}
+
+section{
+    align-self: auto;
+}
+
+a{
+    color:green;
+    padding:  10px 20px 10px 20px;
+}
+
+a:visited{
+    color:rgb(2, 51, 2);
+}
+
+a:hover{
+    color: lightgreen;
+}
+
+a:active{
+    color:darkgreen;
+}
